@@ -1,0 +1,56 @@
+.container {
+  flex: 0.5;
+  background-color: #494b50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameStyle {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 15rem;
+  animation: type 1s steps(60, end);
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+.menuContainer {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.ulContainer {
+  list-style-type: none;
+}
+.ulTextStyles {
+  color: #bbbbbb;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.ulTextStyles:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #fff;
+}
+.copyRightText {
+  color: #bbbbbb;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
